@@ -3,13 +3,13 @@
 
 /*
 
-Desculpa pela falta de organizaÁ„o, :D.
+Desculpa pela falta de organiza√ß√£o, :D.
 
-Foi mal por n„o usar conio... meu compilador veio sem nada... preguiÁa de baixar :D.
+Foi mal por n√£o usar conio... meu compilador veio sem nada... pregui√ßa de baixar :D.
 
-Esse programa sÛ vai funcionar no windows, muitos comandos v„o dar erro no linux.
+Esse programa s√≥ vai funcionar no windows, muitos comandos v√£o dar erro no linux.
 
-Ia fazer um sistema de bem-vindo mas tinha mais de 20 linhas, e È um projeto b·sico.
+Ia fazer um sistema de bem-vindo mas tinha mais de 20 linhas, e √© um projeto b√°sico.
 
 */
 
@@ -19,11 +19,11 @@ int main(void) {
 	float num2;
 
 
-    // SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
-    system("color 5");
-    printf("Este projeto faz parte de uma serie de projetos basicos que irei postar no github.");
-	system("timeout /t 5 /nobreak > nul"); // Timeout de 5 segundos, obs: sÛ funciona no windows.
-	system("cls"); // Limpando prompt de comando, obs: sÛ funciona no windows.
+    	// SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
+    	system("color 5");
+    	printf("Este projeto faz parte de uma serie de projetos basicos que irei postar no github.");
+	system("timeout /t 5 /nobreak > nul"); // Timeout de 5 segundos, obs: s√≥ funciona no windows.
+	system("cls"); // Limpando prompt de comando, obs: s√≥ funciona no windows.
 
 	printf("Por favor, digite um numero: ");
 	scanf("%f", &num1);
@@ -33,10 +33,10 @@ int main(void) {
 
 	system("cls && color b");
 
-    printf("Adicao: %f", num1 + num2);
-    printf("\nSubtracao: %f", num1 - num2);
-    printf("\nDivisao: %f", num1 / num2);
-    printf("\nMultiplicacao: %f", num1 * num2);
+    	printf("Adicao: %f", num1 + num2);
+    	printf("\nSubtracao: %f", num1 - num2);
+    	printf("\nDivisao: %f", num1 / num2);
+    	printf("\nMultiplicacao: %f", num1 * num2);
 
 
 	return 0;
